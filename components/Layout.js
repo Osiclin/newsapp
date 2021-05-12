@@ -10,7 +10,7 @@ export default function Layout({children}) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className={styles.container}>
-            <h3 className={styles.logo}>NewsApp</h3>
+            <h2 className={styles.logo}>NewsApp</h2>
             { children }
             </div>
         </div>

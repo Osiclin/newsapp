@@ -6,9 +6,25 @@
 }
 
 .nextjs{
-    color: blue;
+    color: #0F62FE;
 }
 
 .hometext{
     text-align: center;
+}
+
+.newsapp{
+    position: relative;
+}
+
+.svg{
+    position: absolute;
+    width: 8rem;
+    top: -2.5rem;
+    right: 0rem;
+    z-index: -1;
+}
+
+@media screen and (max-width: 300px) {
+
 }

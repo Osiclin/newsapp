@@ -1,3 +1,8 @@
+.container{
+    height: 84vh;
+    display: flex;
+}
+
 .wrapper{
     width: fit-content;
     margin: 0 auto;
@@ -15,6 +20,7 @@
 
 .position{
     margin-top: 0;
+    margin-bottom: 2rem;
     font-size: 0.85rem;
 }
 
