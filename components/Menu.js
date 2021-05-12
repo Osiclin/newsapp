@@ -10,19 +10,14 @@ export default function Menu() {
                         <li>Home</li>
                     </a>
                 </Link>
-                <Link href='/feed'>
+                <Link href='/feeds'>
                     <a>
-                        <li>Feed</li>
+                        <li>Feeds</li>
                     </a>
                 </Link>
                 <Link href='/eom'>
                     <a>
                         <li>EOM</li>
-                    </a>
-                </Link>
-                <Link href='/twitter'>
-                    <a>
-                        <li>Twitter</li>
                     </a>
                 </Link>
             </ul>

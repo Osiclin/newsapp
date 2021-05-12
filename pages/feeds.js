@@ -1,24 +1,7 @@
-import styles from '../styles/Feed.module.css'
+import styles from '../styles/Feeds.module.css'
 import Image from 'next/image'
 
-export default function Feed({ articles }) {
-    // useEffect(() => {
-    //     let mounted = true;
-
-    //     fetch('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=56f9e1e1169a46cda3b6386a0e92ba52')
-    //     .then(res => res.json())
-    //     .then(data => {
-    //         if (mounted) {
-    //             setNews(data.articles)
-    //             console.log(news)
-    //             setLoading(false)
-    //         }
-    //     })
-    //     .catch(err => console.log(err))
-        
-    //     return () => mounted = false;
-    // }, [])
-
+export default function Feeds({ articles }) {
     return(
         <main className={styles.main}>
             {articles.map((article, index) => 
@@ -33,15 +16,15 @@ export default function Feed({ articles }) {
                 </div>
             )
             }
-            <div className={styles.page}>
+            {/* <div className={styles.page}>
                 <a href="#" className={styles.paginate}>previous</a>  #<span>1</span>  <a href="#" className={styles.paginate}>next</a>
-            </div>
+            </div> */}
         </main>
     )
 }
 
 export async function getServerSideProps() {
-    const res = await fetch('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=56f9e1e1169a46cda3b6386a0e92ba52')
+    const res = await fetch('https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=56f9e1e1169a46cda3b6386a0e92ba52')
     const data = await res.json()
 
     return{
