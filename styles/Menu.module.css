@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 0;
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.menu li{
+    padding: 2px 4px;
+}
+
+.menu li:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.menu li:active{
+    background-color: blue;
+}

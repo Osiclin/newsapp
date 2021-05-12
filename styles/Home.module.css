@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+.nextjs{
+    color: blue;
+}
+
+.hometext{
+    text-align: center;
+}

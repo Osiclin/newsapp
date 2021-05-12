@@ -1,0 +1,48 @@
+.details{
+    font-size: 0.95rem;
+}
+
+.source{
+    font-size: 0.7rem;
+}
+
+.author{
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.main{
+    padding-top: 2rem;
+}
+
+.card{
+    width: 50ch;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.readmore{
+    color: blue;
+    font-size: 0.9rem;
+}
+
+.title{
+    margin-bottom: .4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page{
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.paginate{
+    color: blue;
+}
+
+@media screen and (max-width: 530px) {
+    .card{
+        width: 100%;
+    }
+}

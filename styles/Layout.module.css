@@ -1,0 +1,10 @@
+.container{
+    height: 100vh;
+    padding: 1rem;
+}
+
+.logo{
+    margin: 0;
+    padding-bottom: .6rem;
+    text-align: center;
+}
