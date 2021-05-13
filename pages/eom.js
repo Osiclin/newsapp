@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import styles from '../styles/Eom.module.css'
 import Image from 'next/image'
 
-export default function Oem() {
+export default function Eom() {
     const [employee, setEmployee] = useState()
 
     useEffect(() => {
@@ -34,14 +34,3 @@ export default function Oem() {
         </main>
     )
 }
-
-// export async function getServerSideProps() {
-//     const res = await fetch('/api/eom')
-//     const employee = await res.json()
-//     console.log(employee)
-//     return{
-//         props: {
-//             employee
-//         }
-//     }
-// }
