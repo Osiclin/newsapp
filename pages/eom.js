@@ -25,7 +25,7 @@ export default function Oem() {
     return(
         <main className={styles.container}>
             <div className={styles.wrapper}>
-                <h3>Employee Of The Month</h3>
+                <h3>Employee Of The Month 🎉</h3>
                 <h4 className={styles.name}>osita ezeigbo</h4>
                 <p className={styles.position}>Frontend Developer</p>
                 <Image className={styles.eompics} src="https://pbs.twimg.com/profile_images/1339476289682624513/gArGIAEP_400x400.jpg" loading="eager" layout="responsive" alt="employer of the month" width={200} height={200}/>

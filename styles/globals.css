@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-size: calc(1rem + 0.1vw);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  scroll-behavior: smooth;
 }
 
 a {

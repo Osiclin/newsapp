@@ -11,7 +11,7 @@ export default function Home() {
         <path fill="#F2F4F8" d="M67.3,-21.4C74.6,0.6,59.2,30.4,38.6,43C18,55.5,-7.7,50.8,-30.1,35.9C-52.4,20.9,-71.3,-4.2,-65.8,-23.8C-60.2,-43.4,-30.1,-57.5,-0.1,-57.5C30,-57.5,60,-43.3,67.3,-21.4Z" transform="translate(100 100)" />
       </svg>
       </div>
-        <p>Your one stop shop for the latest news articles</p>
+        <p>Your one stop shop for latest news articles</p>
       </main>
 
     </div>

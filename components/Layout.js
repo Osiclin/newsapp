@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Layout.module.css'
+import Menu from '../components/Menu'
 
 export default function Layout({children}) {
     return(
@@ -9,7 +10,10 @@ export default function Layout({children}) {
                 <meta name="description" content="news app" />
             </Head>
             <div className={styles.container}>
-            <h2 className={styles.logo}>NewsApp</h2>
+            <div className={styles.nav}>
+                <h2 className={styles.logo}>NewsApp</h2>
+                <Menu />
+            </div>
             { children }
             </div>
         </div>
