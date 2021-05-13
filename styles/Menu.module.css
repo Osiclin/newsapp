@@ -18,6 +18,8 @@
     transition: 0.5s;
 }
 
-.menu li:active{
-    background-color: 0F62FE;
+.menu li.active{
+    background-color: #0F62FE;
+    color: white;
+    border-radius: 4px;
 }

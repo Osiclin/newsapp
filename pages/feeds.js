@@ -10,7 +10,7 @@ export default function Feeds({ articles }) {
                         <h3 className={styles.title}>{article.title}</h3>
                     </a>
                     <p className={styles.author}>Author: {article.author}</p>
-                    <p className={styles.details}>{article.description}<a href="#" className={styles.readmore}>Read more</a></p>
+                    <p className={styles.details}>{article.description}<a href={article.url} className={styles.readmore}>Read more</a></p>
                     <Image src={article.urlToImage} layout="intrinsic" width={530} height={300} loading="eager"/>
                     <p className={styles.source}>Source: {article.source.name}</p>
                 </div>
