@@ -7,7 +7,9 @@ export default function Layout({children}) {
         <div>
             <Head>
                 <title>News App</title>
-                <meta name="description" content="news app" />
+                <meta name="description" content="NewsApp brings you top stories and news in sports, business, economy and so on." />
+                <meta name="keywords" content="news, sports news, economy news, business news." />
+                <meta name="author" content="Osita Ezeigbo" />
             </Head>
             <div className={styles.container}>
             <div className={styles.nav}>

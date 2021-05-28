@@ -14,8 +14,6 @@ export default function Eom() {
             if (mounted) {
                 setEmployee(data)
             }
-            console.log(data)
-            console.log(employee.name)
         })
         .catch(err => console.log(err))
         
